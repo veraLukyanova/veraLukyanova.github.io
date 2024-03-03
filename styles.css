@@ -1,0 +1,166 @@
+/* ВРЕМЕННЫЙ */
+
+/* {outline: 1px solid red}*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body{
+	max-width: auto;
+	margin: auto;
+	border-radius: 10px;
+    height: 100%;
+}
+
+/* ШАПКА */
+header {
+    overflow: auto;
+    background-color: rgba(133, 218, 248, 0.94);
+    border-radius: 10px;	
+}
+
+.nameUser{
+    float:left;
+    padding: 15px 30px 15px;
+    font: 20px 'rbcb', Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+/* ДИВЫ */
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content{
+        flex: 1 0 auto;
+}
+
+div {
+    font: 16px/1 'rbcb', Arial, Helvetica, sans-serif;
+}
+
+/* кнопка в начале */
+
+.buttonHeader{
+	float: right;
+    height: 30px; 
+    padding: 15px 30px 15px;
+    text-align: center;
+	display: inline-block;
+    vertical-align: top;
+	border-radius: 8px;
+	background: rgba(0, 201, 13, 0.8);
+    box-shadow: rgb(0, 128, 0, 0.6) 0px -5px 3px 4px inset;
+}
+
+.buttonForm{
+    text-decoration: none;
+	background-color: rgba(0, 201, 13, 0.8);
+    color: white;
+    font: 16px/1 'rbcb', Arial, Helvetica, sans-serif;
+}
+
+/* ПОДВАЛ */
+
+.footer {
+    margin: 0px 0px 0px 0px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+	background-color: rgba(133, 218, 248, 0.94);
+    border-radius: 10px;
+	border: 1px solid #89D9F4;
+	color: #004179;
+    flex: 0 0 auto;
+}
+
+p {
+    float: right;
+    margin: 40px 10px 0px 10px;
+}
+
+/* кнопка приг на собес */
+
+.buttonFooter{
+    f!loat: center;
+    height: 30px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+	display: inline-block;
+    vertical-align: top;
+	border-radius: 8px;
+	background: rgba(0, 201, 13, 0.8);
+    box-shadow: rgb(0, 128, 0, 0.6) 0px -5px 3px 4px inset;
+}
+
+/* ССЫЛКИ */
+	
+.adress_link a:link {text-decoration: none;} /* Убирает подчеркивание для ссылок */
+.adress_link a:visited {text-decoration: none;} 
+.adress_link a:active {text-decoration: none;}
+.adress_link a:hover {
+    text-decoration: none; /* underline; Делает ссылку подчеркнутой при наведении на нее курсора */
+    font-size: 18px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
+}
+
+a:link {text-decoration: none;} /* Убирает подчеркивание для ссылок */
+a:visited {text-decoration: none;} 
+a:active {text-decoration: none;}
+a:hover {
+    text-decoration: none; /* underline Делает ссылку подчеркнутой при наведении на нее курсора */
+    font-size: 18px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
+ }
+ 
+/* АДАПТИВНАЯ ВЁРСТКА */
+/*@media all and (max-width:1100px){
+	form{clear:right;}
+}
+
+@media all and (max-width:1080px) {
+
+}
+
+
+@media all and (max-width: 869px) {
+	
+}
+
+@media all and (max-width: 789px) {
+
+}
+
+@media all and (max-width: 520px) {
+
+}
+
+@media all and (max-width: 360px) {
+.btnUp {display: none}
+
+}
+
+@media all and (max-width: 320px) {
+
+.btnUp {display: none;}
+
+header {margin: 0 0 5px 0;}
+
+.adress_link a {font-size:14px;}
+
+button{
+clear:right; float:bottom;
+margin:10px 30px 3px 20px;}
+}
+    */ 
+
+
