@@ -204,38 +204,3 @@ a:hover {
 @media all and (max-width:1100px){
 	form{clear:right;}
 }
-
-@media all and (max-width:1080px) {
-
-}
-
-
-@media all and (max-width: 869px) {
-	
-}
-
-@media all and (max-width: 789px) {
-
-}
-
-@media all and (max-width: 520px) {
-
-}
-
-@media all and (max-width: 360px) {
-.btnUp {display: none}
-
-}
-
-@media all and (max-width: 320px) {
-
-.btnUp {display: none;}
-
-header {margin: 0 0 5px 0;}
-
-.adress_link a {font-size:14px;}
-
-button{
-clear:right; float:bottom;
-margin:10px 30px 3px 20px;}
-}
