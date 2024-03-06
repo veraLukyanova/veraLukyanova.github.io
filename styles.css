@@ -127,6 +127,7 @@ h6 {
 
 .petProject {
     float: left;
+    background-color: #FFFF55;
     margin: 0px 0px 0px 100px;
 }
 
@@ -134,8 +135,14 @@ h6 {
     margin: -5px 0px 0px 25px;
 }
 
+.eduh5 {
+    padding: 0px 0px 0px -5px;
+    margin: 0px 0px 0px -12px;
+}
+
 .edu {
     float: left;
+    background-color: pink;
     margin: 50px 0px 0px 100px;
     line-height: 1.5;
 }
@@ -153,15 +160,16 @@ h6 {
 
 /* ПОДВАЛ */
 .footer {
+    flex: 0 0 auto;
     margin: 30px 0px 0px 0px;
     bottom: 0;
     right: 0;
-    width: 100%;
+    width: 99,9%;
 	background-color: rgba(170, 246, 131, 0.94);
     border-radius: 10px;
 	border: 1px solid #89D9F4;
 	color: #004179;
-    flex: 0 0 auto;
+    
 }
 
 p {
@@ -203,9 +211,78 @@ a:hover {
     font-weight: bold; /* Жирное начертание */
     color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
  }
- 
-/* АДАПТИВНАЯ ВЁРСТКА */
 
-@media all and (max-width:1230px){
-	form{clear:right;}
-}
+    /* АДАПТИВНАЯ ВЁРСТКА */
+    
+    @media (max-width: 1260px) {
+    
+        .petProject {
+            padding: 0px 0px;
+            background-color: #FFFF55;
+        }
+
+        .eduh5 {
+            padding: 0px 0px 0px -5px;
+            margin: 0px 0px 0px -12px;
+        }
+        
+        .edu {
+            background-color: pink;
+            padding: 0px 0px 0px 0px;
+        }
+
+        .textMyself {
+            margin: 10px 0px 0px 0px;
+            padding: 5px 0px 0px 15px;
+        }
+    }
+    
+    @media (max-width: 1180px) {
+    
+        .petProject {
+            padding: 0px 0px;
+            background-color: yellow;
+            margin: auto;  
+        }
+
+        .eduh5 {
+            padding: 0px 0px 0px -5px;
+            margin: 0px 0px 0px -12px;
+        }
+        
+        .edu {
+            background-color: pink;
+            margin: auto;
+            padding: 0px 0px 0px 0px;
+        }
+
+        .textMyself {
+            margin: 10px 0px 0px 0px;
+            padding: 5px 0px 0px 15px;
+        }
+    }
+    
+    @media (max-width: 1080px) {
+    
+        .petProject {
+            padding: 0px 0px;
+            background-color: yellow;
+            margin: auto;
+        }
+
+        .eduh5 {
+            padding: 0px 0px 0px -5px;
+            margin: 0px 0px 0px -12px;
+        }
+        
+        .edu {
+            background-color: pink;
+            margin: auto;
+            padding: 0px 0px 0px 0px;
+        }
+
+        .textMyself {
+            margin: 10px 0px 0px 0px;
+            padding: 5px 0px 0px 15px;
+        }
+    }
