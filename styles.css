@@ -7,8 +7,7 @@
 	padding: 0;
 }
 
-html,
-body{
+html, body {
 	max-width: auto;
 	margin: auto;
 	border-radius: 10px;
@@ -18,6 +17,7 @@ body{
 }
 
 /* ШАПКА */
+
 header {
     b!ackground-image: url("images/dinosaur.jpg");
     overflow: auto;
@@ -68,7 +68,7 @@ header {
 }
 
 .content {
-        flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 h4 {
@@ -78,10 +78,12 @@ h4 {
     font-size: 18px;
     f!ont-weight: bolder;
 }
+
 h5 {
     font-size: 14px;
     letter-spacing: 1px;
 }
+
 h6 {
     font-size: 14px;
     letter-spacing: 1px;
@@ -93,6 +95,7 @@ h6 {
     clear: both;
     margin: 0px 15px 0px 80px;
 }
+
 .text {
     float: right;
     clear: both;
@@ -104,6 +107,7 @@ h6 {
     clear: both;
     margin: 0px 15px 0px 80px;
 }
+
 .text1 {
     float: right;
     clear: both;
@@ -111,28 +115,29 @@ h6 {
     line-height: 1.8;
 }
 
-.contact{
+.contact {
     float: left;
 }
-.skills{
+
+.skills {
     float: left;
     padding: 10px 25px 15px 0px;
     clear: both;
 }
 
-.petProject{
+.petProject {
     float: left;
     margin: 0px 0px 0px 100px;
 }
 
-.edu2015{
+.edu2015 {
     margin: -5px 0px 0px 25px;
 }
 
-.edu{
+.edu {
     float: left;
     margin: 50px 0px 0px 100px;
-        line-height: 1.5;
+    line-height: 1.5;
 }
 
 .textMyself {
@@ -140,7 +145,7 @@ h6 {
     line-height: 2;
 }
 
-.myself{
+.myself {
     margin: 12px 0px 0px 0px;
     float: left;
     clear: both;
@@ -152,7 +157,7 @@ h6 {
     bottom: 0;
     right: 0;
     width: 100%;
-	background-color: rgba(170, 246, 131, 0.94); /* rgba(133, 218, 248, 0.94) */
+	background-color: rgba(170, 246, 131, 0.94);
     border-radius: 10px;
 	border: 1px solid #89D9F4;
 	color: #004179;
@@ -165,7 +170,7 @@ p {
     font-size: 10px;
 }
 
-.buttonFooter{
+.buttonFooter {
     height: 45px;
     padding: 25px 30px 15px 30px;
     text-align: center;
@@ -201,6 +206,6 @@ a:hover {
  
 /* АДАПТИВНАЯ ВЁРСТКА */
 
-@media all and (max-width:1100px){
+@media all and (max-width:1230px){
 	form{clear:right;}
 }
