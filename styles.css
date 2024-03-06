@@ -1,288 +1,290 @@
 /* ВРЕМЕННЫЙ */
 
-/* * {outline: 1px solid red}*/
+    /* * {outline: 1px solid red}*/
 
-* {
-	margin: 0;
-	padding: 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-html, body {
-	max-width: auto;
-	margin: auto;
-	border-radius: 10px;
-    height: 100%;
-    font-family: Lobster, cursive;
-    
-}
+    html, body {
+        max-width: auto;
+        margin: auto;
+        border-radius: 10px;
+        height: 100%;
+        font-family: Lobster, cursive;
+        
+    }
 
-/* ШАПКА */
+    /* ШАПКА */
 
-header {
-    b!ackground-image: url("images/dinosaur.jpg");
-    overflow: auto;
-    b!ackground: #aaf683; /*aaf683; c2de8a 80ed99 #f2811d*/
-    background-color: rgba(170, 246, 131, 0.94); /* rgba(133, 218, 248, 0.94) */
-    border-radius: 10px;	
-}
+    header {
+        b!ackground-image: url("images/dinosaur.jpg");
+        overflow: auto;
+        b!ackground: #aaf683; /*aaf683; c2de8a 80ed99 #f2811d*/
+        background-color: rgba(170, 246, 131, 0.94); /* rgba(133, 218, 248, 0.94) */
+        border-radius: 10px;	
+    }
 
-.nameUser {
-    float:left;
-    padding: 14px 15px 0px 80px;
-    color: white;
-    font-size: 24px;
-    font-weight: bolder;
-    letter-spacing: 17px;
-    word-spacing: 3x;
-}
-.devops {
-    padding: 8px 10px 0px 0px;
-    letter-spacing: 8px;
-    word-spacing: 3px;
-}
+    .nameUser {
+        float:left;
+        padding: 14px 15px 0px 80px;
+        color: white;
+        font-size: 24px;
+        font-weight: bolder;
+        letter-spacing: 17px;
+        word-spacing: 3x;
+    }
+    .devops {
+        padding: 8px 10px 0px 0px;
+        letter-spacing: 8px;
+        word-spacing: 3px;
+    }
 
-.buttonHeader{
-	float: right;
-    height: 45px; 
-    padding: 30px 30px 15px 40px;
-    text-align: center;
-	display: inline-block;
-	border-radius: 8px;
-	background: rgba(0, 201, 13, 0.8);
-    box-shadow: rgb(0, 128, 0, 0.6) 0px -5px 3px 4px inset;
-}
+    .buttonHeader{
+        float: right;
+        height: 45px; 
+        padding: 30px 30px 15px 40px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 8px;
+        background: rgba(0, 201, 13, 0.8);
+        box-shadow: rgb(0, 128, 0, 0.6) 0px -5px 3px 4px inset;
+    }
 
-.buttonForm{
-    padding: 0px 30px 0px 30px;
-    color: white;
-    text-align: center;
-    letter-spacing: 5px;
-    word-spacing: 3px;
-    font-size: 18px;
-}
+    .buttonForm{
+        padding: 0px 30px 0px 30px;
+        color: white;
+        text-align: center;
+        letter-spacing: 5px;
+        word-spacing: 3px;
+        font-size: 18px;
+    }
 
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-}
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+    }
 
-.content {
-    flex: 1 0 auto;
-}
+    .content {
+        flex: 1 0 auto;
+    }
 
-h4 {
-    margin: 30px 0px 30px 70px;
-    letter-spacing: 5px;
-    word-spacing: 3px;
-    font-size: 18px;
-    f!ont-weight: bolder;
-}
+    h4 {
+        margin: 30px 0px 30px 70px;
+        letter-spacing: 5px;
+        word-spacing: 3px;
+        font-size: 18px;
+        f!ont-weight: bolder;
+    }
 
-h5 {
-    font-size: 14px;
-    letter-spacing: 1px;
-}
+    h5 {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
 
-h6 {
-    font-size: 14px;
-    letter-spacing: 1px;
-    padding: 5px 0px 0px 0px;
-}
+    h6 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 5px 0px 0px 0px;
+    }
 
-.png {
-    float: left;
-    clear: both;
-    margin: 0px 15px 0px 80px;
-}
+    .png {
+        float: left;
+        clear: both;
+        margin: 0px 15px 0px 80px;
+    }
 
-.text {
-    float: right;
-    clear: both;
-    margin: 0px 15px 0px 10px;
-}
+    .text {
+        float: right;
+        clear: both;
+        margin: 0px 15px 0px 10px;
+    }
 
-.png1 {
-    float: left;
-    clear: both;
-    margin: 0px 15px 0px 80px;
-}
+    .png1 {
+        float: left;
+        clear: both;
+        margin: 0px 15px 0px 80px;
+    }
 
-.text1 {
-    float: right;
-    clear: both;
-    margin: 0px 15px 0px 10px;
-    line-height: 1.8;
-}
+    .text1 {
+        float: right;
+        clear: both;
+        margin: 0px 15px 0px 10px;
+        line-height: 1.8;
+    }
 
-.contact {
-    float: left;
-}
+    .contact {
+        float: left;
+    }
 
-.skills {
-    float: left;
-    padding: 10px 25px 15px 0px;
-    clear: both;
-}
+    .skills {
+        float: left;
+        padding: 10px 25px 15px 0px;
+        clear: both;
+    }
 
-.petProject {
-    float: left;
-    background-color: #FFFF55;
-    margin: 0px 0px 0px 100px;
-}
+    .petProject {
+        float: left;
+        background-color: #FFFF99;
+        border-radius: 8px;
+        margin: 0px 0px 0px 100px;
+    }
 
-.edu2015 {
-    margin: -5px 0px 0px 25px;
-}
+    .edu2015 {
+        margin: -5px 0px 0px 25px;
+    }
 
-.eduh5 {
-    padding: 0px 0px 0px -5px;
-    margin: 0px 0px 0px -12px;
-}
+    .eduh5 {
+        padding: 0px 0px 0px -5px;
+        margin: 0px 0px 0px -12px;
+    }
 
-.edu {
-    float: left;
-    background-color: pink;
-    margin: 50px 0px 0px 100px;
-    line-height: 1.5;
-}
+    .edu {
+        float: left;
+        background-color: pink;
+        border-radius: 8px;
+        margin: 50px 0px 0px 100px;
+        line-height: 1.5;
+    }
 
-.textMyself {
-    margin: 10px 15px 0px 80px;
-    line-height: 2;
-}
+    .textMyself {
+        margin: 10px 15px 0px 80px;
+        line-height: 2;
+    }
 
-.myself {
-    margin: 12px 0px 0px 0px;
-    float: left;
-    clear: both;
-}
+    .myself {
+        margin: 12px 0px 0px 0px;
+        float: left;
+        clear: both;
+    }
 
-/* ПОДВАЛ */
-.footer {
-    flex: 0 0 auto;
-    margin: 30px 0px 0px 0px;
-    bottom: 0;
-    right: 0;
-    width: 99,9%;
-	background-color: rgba(170, 246, 131, 0.94);
-    border-radius: 10px;
-	border: 1px solid #89D9F4;
-	color: #004179;
-    
-}
+    /* ПОДВАЛ */
+    .footer {
+        flex: 0 0 auto;
+        margin: 60px 0px 0px 0px;
+        bottom: 0;
+        right: 0;
+        width: 99,9%;
+        background-color: rgba(170, 246, 131, 0.94);
+        border-radius: 10px;
+        border: 1px solid #89D9F4;
+        color: #004179;
+        
+    }
 
-p {
-    float: right;
-    margin: 60px 10px 0px 10px;
-    font-size: 10px;
-}
+    p {
+        float: right;
+        padding: 30px 20px 0px 5px;
+        font-size: 10px;
+    }
 
-.buttonFooter {
-    height: 45px;
-    padding: 25px 30px 15px 30px;
-    text-align: center;
-	display: inline-block;
-    vertical-align: top;
-	border-radius: 8px;
-	background: rgba(0, 201, 13, 0.8);
-    box-shadow: rgb(0, 128, 0, 0.6) 0px -5px 3px 4px inset;
-    letter-spacing: 5px;
-    word-spacing: 3px;
-}
+    .buttonFooter {
+        height: 40px;
+        padding: 20px 30px 15px 30px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 8px;
+        background: rgba(0, 201, 13, 0.8);
+        box-shadow: rgb(0, 128, 0, 0.6) 0px -5px 3px 4px inset;
+        letter-spacing: 5px;
+        word-spacing: 3px;
+    }
 
-/* ССЫЛКИ */
-.adress_link a:link {text-decoration: none;} /* Убирает подчеркивание для ссылок */
-.adress_link a:visited {text-decoration: none;} 
-.adress_link a:active {text-decoration: none;}
-.adress_link a:hover {
-    text-decoration: none; /* underline; Делает ссылку подчеркнутой при наведении на нее курсора */
-    font-size: 18px; /* Размер шрифта */
-    font-weight: bold; /* Жирное начертание */
-    color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
-}
+    /* ССЫЛКИ */
+    .adress_link a:link {text-decoration: none;} /* Убирает подчеркивание для ссылок */
+    .adress_link a:visited {text-decoration: none;} 
+    .adress_link a:active {text-decoration: none;}
+    .adress_link a:hover {
+        text-decoration: none; /* underline; Делает ссылку подчеркнутой при наведении на нее курсора */
+        font-size: 18px; /* Размер шрифта */
+        font-weight: bold; /* Жирное начертание */
+        color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
+    }
 
-a:link {text-decoration: none;} /* Убирает подчеркивание для ссылок */
-a:visited {text-decoration: none;} 
-a:active {text-decoration: none;}
-a:hover {
-    text-decoration: none; /* underline Делает ссылку подчеркнутой при наведении на нее курсора */
-    font-size: 18px; /* Размер шрифта */
-    font-weight: bold; /* Жирное начертание */
-    color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
- }
+    a:link {text-decoration: none;} /* Убирает подчеркивание для ссылок */
+    a:visited {text-decoration: none;} 
+    a:active {text-decoration: none;}
+    a:hover {
+        text-decoration: none; /* underline Делает ссылку подчеркнутой при наведении на нее курсора */
+        font-size: 18px; /* Размер шрифта */
+        font-weight: bold; /* Жирное начертание */
+        color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
+     }
 
-    /* АДАПТИВНАЯ ВЁРСТКА */
-    
-    @media (max-width: 1260px) {
-    
-        .petProject {
-            padding: 0px 0px;
-            background-color: #FFFF55;
-        }
+        /* АДАПТИВНАЯ ВЁРСТКА */
+        
+        @media (max-width: 1260px) {
+        
+            .petProject {
+                padding: 0px 0px;
+                background-color: #FFFF99;
+            }
 
-        .eduh5 {
-            padding: 0px 0px 0px -5px;
-            margin: 0px 0px 0px -12px;
+            .eduh5 {
+                padding: 0px 0px 0px -5px;
+                margin: 0px 0px 0px -12px;
+            }
+            
+            .edu {
+                background-color: pink;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .textMyself {
+                margin: 10px 0px 0px 0px;
+                padding: 5px 0px 0px 15px;
+            }
         }
         
-        .edu {
-            background-color: pink;
-            padding: 0px 0px 0px 0px;
-        }
+        @media (max-width: 1180px) {
+        
+            .petProject {
+                padding: 0px 0px;
+                background-color: #FFFF99;
+                margin: auto;  
+            }
 
-        .textMyself {
-            margin: 10px 0px 0px 0px;
-            padding: 5px 0px 0px 15px;
-        }
-    }
-    
-    @media (max-width: 1180px) {
-    
-        .petProject {
-            padding: 0px 0px;
-            background-color: yellow;
-            margin: auto;  
-        }
+            .eduh5 {
+                padding: 0px 0px 0px -5px;
+                margin: 0px 0px 0px -12px;
+            }
+            
+            .edu {
+                background-color: pink;
+                margin: auto;
+                padding: 0px 0px 0px 0px;
+            }
 
-        .eduh5 {
-            padding: 0px 0px 0px -5px;
-            margin: 0px 0px 0px -12px;
+            .textMyself {
+                margin: 10px 0px 0px 0px;
+                padding: 5px 0px 0px 15px;
+            }
         }
         
-        .edu {
-            background-color: pink;
-            margin: auto;
-            padding: 0px 0px 0px 0px;
-        }
-
-        .textMyself {
-            margin: 10px 0px 0px 0px;
-            padding: 5px 0px 0px 15px;
-        }
-    }
-    
-    @media (max-width: 1080px) {
-    
-        .petProject {
-            padding: 0px 0px;
-            background-color: yellow;
-            margin: auto;
-        }
-
-        .eduh5 {
-            padding: 0px 0px 0px -5px;
-            margin: 0px 0px 0px -12px;
-        }
+        @media (max-width: 1080px) {
         
-        .edu {
-            background-color: pink;
-            margin: auto;
-            padding: 0px 0px 0px 0px;
-        }
+            .petProject {
+                padding: 0px 0px;
+                background-color: #FFFF99;
+                margin: auto;
+            }
 
-        .textMyself {
-            margin: 10px 0px 0px 0px;
-            padding: 5px 0px 0px 15px;
+            .eduh5 {
+                padding: 0px 0px 0px -5px;
+                margin: 0px 0px 0px -12px;
+            }
+            
+            .edu {
+                background-color: pink;
+                margin: auto;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .textMyself {
+                margin: -15px 0px 0px 0px;
+                padding: 5px 0px 0px 15px;
+            }
         }
-    }
