@@ -1,6 +1,6 @@
 /* ВРЕМЕННЫЙ */
 
-   /* * {outline: 1px solid red} */
+   /* * {outline: 1px solid red}  */
 
     * {
         margin: 0;
@@ -227,489 +227,534 @@
         color: rgb (0, 128, 0, 0.6); /* Цвет ссылки */
      }
 
-      /* АДАПТИВНАЯ ВЁРСТКА */
+  /* АДАПТИВНАЯ ВЁРСТКА */
+    
+    @media all and (max-width: 1244px) {   
+    
+        .eduh5 {
+            padding: 0 0 0 10px;
+            margin: 0 -15px 0 -8px;
+        }
         
-        @media all and (max-width: 1244px) {   
-            
-            .eduh5 {
-                padding: 0 0 0 10px;
-                margin: 0 -15px 0 -8px;
-            }
-            
-            .edu {
-                padding: 0;
-            }
-            
-            .h4Myself {
-                margin: 30px 0 30px 10px;
-            }
+        .edu {
+            padding: 0;
+        }
+        
+        .h4Myself {
+            margin: 30px 0px 30px 70px;
+        }
+        
+        .textMyself {
+            margin: 10px 0 0 0;
+            padding: 5px 0px 0 10px;
+        }
+    }
+    
+    @media all and (max-width: 1180px) {         
+        
+        .petProject {
+            margin: auto;
+            background-color: white;
+        }
+        
+        .edu {
+            margin: 27px 0 0 0;
+            background-color: white;
+        }
+        
+        .eduh4 {
+            letter-spacing: 4px;
+            word-spacing: 2px;
+        }      
+        
+        .myself {
+            margin: -15px 0px 0px 0px;
+            padding: 5px 0 0 15px;
+        }
+        
+        .h4Myself {
+            margin: 30px 0 30px 55px;
+            letter-spacing: 4px;
+            word-spacing: 2px;
+        }   
+    
+        .textMyself {
+            padding: 0 0 0 15px;
+        }
+    }
+    
+    @media all and (max-width: 1080px) {
+        
+        h6 {
+            font-size: 13px;
+        }
+        
+        .petProject {
+            margin: auto;
+            background-color: #FFFF99;
+        }
+        
+        .edu {
+            margin: 45px 0 0 0;
+            background-color: pink;
+        }
+        
+        .eduh4 {
+            font-size: 16px;
+        }      
 
-            .textMyself {
-                margin: 10px 0 0 0;
-                padding: 5px 0 0 15px;
+        .eduh5 {
+            padding: 2px 0 0 10px;
+            font-size: 13px;
+        }
+        
+        .edu2015 {
+            font-size: 12px;
+        }
+        
+        .h4Myself {
+            font-size: 16px;
+        }
+        
+        .textMyself {
+            margin: 0 10px 0 -10px;
+        }
+    }
+    
+    @media all and (max-width: 1045px) {
+        
+        .nameUser {
+            padding: 14px 15px 0 20px;
+            letter-spacing: 16px;
+            word-spacing: 2px;
+        }
+        
+        .devops {
+            word-spacing: 2px;
+        }
+              
+        .png {
+            margin: 0 10px 0 30px;
+        }
+
+        .text {
+            margin: 0 10px 0 10px;
+        }
+        
+        .png1 {
+            margin: 0 15px 0 60px;
+        }
+        
+        h4 {
+            margin: 30px 0 30px 20px;
+            font-size: 15px;
+        }
+        
+        h5 {
+            font-size: 13px;
+        }
+        
+        .petProject {
+            background-color: white;            
+        }
+        
+        .edu {
+            background-color: white;
+            margin: 50px 0 0 0;         
+        }
+        
+        .eduh4 {
+            margin: 30px 0 30px 20px;
+            font-size: 15px;
+        }      
+
+        .eduh5 {
+            padding: 0 0 0 10px;
+        }         
+        
+        .h4Myself {
+            margin: 27px 20px 30px 5px;
+            font-size: 15px;
+        }
+        
+        .textMyself {
+            padding: 0;
+            line-height: 2;
+        }
+    }
+    
+    @media all and (max-width: 1008px) {
+        
+        h4 {
+            margin: 30px 0 30px 15px;
+        }
+        
+        .png1 {
+            margin: 0;
+        }
+    }
+    
+    @media all and (max-width: 913px) {
+        
+        .h4Myself {
+            margin: 27px 0 30px -25px;
+            padding: 10px 0 0 0;
+        }
+        
+        .png1 {
+            margin: 0 15px 0 80px;
+        }
+        
+        .buttonHeader{
+            height: 42px; 
+            padding: 30px 10px 15px 10px;
+        }
+
+        .buttonForm{
+            letter-spacing: 4px;
+            word-spacing: 4px;
+            font-size: 16px;
+        }
+
+        .skills {
+            position: absolute;
+            left: 20px;
+            margin: 0px 10px 0px 0px; 
+
+        }
+        
+        .contact_2 {
+            position: absolute;
+            right: 350px;
+            margin: 85px 20px 0 0;
+        }
+        
+        .myself {
+            position: absolute;
+            right: 0px;
+            margin: 135px 10px 0 300px;
+
+        }
+        
+        .petProject {
+            float: bottom;
+            clear: both;
+            margin: 420px 0 30px 125px;
+            background-color: #FFFF99;
+        }
+
+        .edu {
+           margin: 20px 0 0 125px;
+           background-color: pink;
+        }
+    }
+    
+    @media all and (max-width: 882px) {     
+        
+        html, body {
+            font-family: Brush Script MT;   
+        }
+        
+        .myself {
+            br {
+                display: none;
             }
         }
         
-        @media all and (max-width: 1180px) {         
-            
-            .petProject {
-                margin: auto;  
-            }
-            
-            .edu {
-                margin: 27px 0 0 0;
-            }
-            
-            .eduh4 {
-                letter-spacing: 4px;
-                word-spacing: 2px;
-            }      
-
-            .eduh5 {
-                padding: 0 0 0 10px;
-                margin: 0 -15px 0 -8px;
-            }
-            
-            .myself {
-                margin: -15px 0px 0px 0px;
-                padding: 5px 0 0 15px;
-            }
-            
-            .h4Myself {
-                margin: 30px 0 30px 55px;
-                letter-spacing: 4px;
-                word-spacing: 2px;
-            }   
+        .textMyself {
+            width: 600px;
+            height: auto;
+            margin: 0 0 0 10px;
+            padding: 0 0 0 10px;
+        }
         
-            .textMyself {
-                margin: 10px 0 0 0;
-                padding: 0 0 0 15px;
-                line-height: 2;
+        .h4Myself {
+            margin: 0 0 20px 0;
+        }          
+
+        .skills {
+            position: absolute;
+            left: 90px;
+            margin: 0 10px 0 0; 
+        }
+        
+        .contact_2 {
+            position: absolute;
+            right: 100px;
+            margin: 86px 20px 0 0;
+        }
+        
+        .myself {
+            position: relative;
+            top: 300px;
+            margin: 80px 0 0 90px;
+        } 
+        
+        .petProject {
+            float: bottom;
+            clear: both;
+            margin: 350px 0 30px 100px;
+        }
+        
+        .edu {
+           margin: 20px 0 -10px 100px;
+        }
+    }
+    
+    @media all and (max-width: 856px) {  
+        
+        .skills {
+            position: absolute;
+            left: 70px; 
+        }
+        
+        .contact_2 {
+            position: absolute;
+            right: 90px;
+            margin: 86px 10px 0 0;
+        }
+        
+        .h4Myself {
+            margin: 0 0 20px 0px;
+        }  
+        
+        .myself {
+            margin: 80px 0 0 70px;
+        }
+        
+        .textMyself {
+            margin: 0 50px 0 0px;
+        }
+        
+        .petProject {
+            margin: 350px 0 30px 70px;
+        }
+        
+        .edu {
+            margin: 20px 0 -10px 70px;
+        }
+    
+    }
+    
+    @media all and (max-width: 762px) { 
+        
+        .nameUser {
+            font-size: 22px;
+            letter-spacing: 12px;
+        }  
+        
+        .contact_2 {
+            position: absolute;
+            right: 60px;
+        }
+        
+        .textMyself {
+            margin: 0 30px 0 10px;
+        }
+
+        .h4Myself {
+            margin: 0 0 20px 10px;
+        } 
+        
+        .myself {
+            margin: 80px 0 0 50px;
+        }
+        
+        .petProject {
+            margin: 350px 0 30px 40px;
+        }
+        
+        .edu {
+            margin: 20px 0 -10px 40px;
+        }
+    
+    }
+    
+    @media all and (max-width: 720px) { 
+        
+        .contact_2 {
+            position: absolute;
+            right: 65px;
+        }
+        
+        .textMyself {
+            margin: 0 20px 0 5px;
+        }
+
+        .myself {
+            margin: 80px 0 0 40px;
+        }
+        
+        .petProject {
+            margin: 350px 0 30px 20px;
+        }
+        
+        .edu {
+            margin: 20px 0 -10px 20px;
+        }
+    }
+    
+    @media all and (max-width: 700px) {        
+        
+        .textMyself {
+            margin: 0 20px 0 0px;
+        }
+
+        .myself {
+            margin: 80px 0 0 20px;
+        }
+        
+        .petProject {
+            margin: 350px 0 30px 10px;
+        }
+        
+        .edu {
+            margin: 20px 0 -10px 10px;
+        }
+    }
+    
+    @media all and (max-width: 680px) { 
+        
+        .buttonForm{
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            font-size: 15px;
+        }
+        
+        .png1 {
+            margin: 0 15px 0 50px;
+        }
+        
+        .skills {
+            position: absolute;
+            left: 30px; 
+        }
+        
+        .contact_2 {
+            position: absolute;
+            right: 45px;
+        }
+        
+        .textMyself {
+            margin: 0 10px 0 5px;
+        }
+
+        .h4Myself {
+            margin: 0 0 20px 10px;
+        } 
+        
+        .myself {
+            margin: 80px 0 0 20px;
+            padding: 0;
+        }
+        
+        .petProject {
+            margin: 350px 0 30px 10px;
+        }
+        
+        .edu {
+            margin: 20px 0 -10px 10px;
+        }
+    }
+    
+    @media all and (max-width: 660px) {
+        
+        .png1 {
+            margin: 0 15px 0 30px;
+        }
+        
+        .myself {
+            margin: 80px 0 0 0px;
+            padding: 0;
+        }
+    }
+    
+    @media all and (max-width: 648px) { 
+        
+        .nameUser {
+            font-size: 20px;
+            letter-spacing: 10px;
+        } 
+        
+        h4{
+            font-size: 14px;
+        }
+        
+        .eduh4{
+            font-size: 14px;
+        }
+        
+        .buttonHeader{
+            height: 40px; 
+            padding: 30px 10px 15px 10px;
+        }
+    
+        .png1 {
+            margin: 0 10px 0 10px;
+        }
+        
+        .textMyself {
+            width: auto;
+            height: auto;
+            padding: 0 0 0 5px;
+        }
+    
+    }
+    
+    @media all and (max-width: 608px) {
+        
+        
+        .skills {
+            position: absolute;
+            left: 20px;
+        } 
+        
+        h4 {
+            margin: 10px 0 20px 5px;
+        }
+        
+        .h4Myself {
+            margin: 10px 0 20px 5px;
+        } 
+        
+        .eduh4{
+            font-size: 14px;
+            margin: 10px 0 20px 5px;
+        }
+        
+        .buttonHeader{
+            height: 40px; 
+            padding: 30px 10px 15px 10px;
+        }
+    
+        .png1 {
+            margin: 0 10px 0 5px;
+        }
+
+        .myself {
+            margin: 30px 0 0 10px;
+            padding: 0;
+        }
+    }
+    
+    @media all and (max-width: 530px) {
+         
+        .img1 {
+            display: none;
+        }
+        
+        h6 {
+            br {
+                display: none;    
             }
         }
         
-        @media all and (max-width: 1080px) {
-          
-            h4 {
-                font-size: 16px;
-            }
-            
-            h5 {
-                font-size: 14px;
-            }
-            
-            h6 {
-                font-size: 13px;
-            }
-            
-            .petProject {
-                margin: auto;  
-            }
-            
-            .edu {
-                margin: 45px 0 0 0;
-            }
-            
-            .eduh4 {
-                letter-spacing: 4px;
-                word-spacing: 2px;
-                font-size: 16px;
-            }      
-
-            .eduh5 {
-                padding: 2px 0 0 10px;
-                margin: 0 -15px 0 -8px;
-                font-size: 13px;
-            }
-            
-            .edu2015 {
-                font-size: 12px;
-            }
-            
-            .h4Myself {
-                margin: 30px 0 30px 55px;
-                letter-spacing: 4px;
-                word-spacing: 2px;
-                font-size: 16px;
-            }
-            
-            .textMyself {
-                margin: 0 10px 0 -10px;
-            }
+        body {
+            font-size: 12px; 
         }
         
-        @media all and (max-width: 1045px) {
-            
-            .nameUser {
-                padding: 14px 15px 0 20px;
-                letter-spacing: 16px;
-                word-spacing: 2px;
-            }
-            .devops {
-                padding: 8px 10px 0 0;
-                letter-spacing: 8px;
-                word-spacing: 2px;
-            }
-            .png {
-                margin: 0 10px 0 30px;
-            }
-
-            .text {
-                margin: 0 10px 0 10px;
-            }
-            
-            h4 {
-                margin: 30px 0 30px 20px;
-                font-size: 15px;
-            }
-            
-            h5 {
-                font-size: 13px;
-            }
-            
-            h6 {
-                font-size: 13px;
-            }
-            
-            .petProject {
-                margin: auto;  
-            }
-            
-            .edu {
-                margin: 50px 0 0 0;
-            }
-            
-            .eduh4 {
-                margin: 30px 0 30px 20px;
-                letter-spacing: 4px;
-                word-spacing: 2px;
-                font-size: 15px;
-            }      
-
-            .eduh5 {
-                padding: 0 0 0 10px;
-                margin: 0 -15px 0 -8px;
-                font-size: 13px;
-            }
-            
-            .edu2015 {
-                font-size: 12px;
-            }           
-            
-            .h4Myself {
-                margin: 27px 20px 30px 5px;
-                letter-spacing: 4px;
-                word-spacing: 2px;
-                font-size: 15px;
-            }
-            
-            .textMyself {
-                padding: 0;
-                line-height: 2;
-            }
+        .contact {
+            margin: auto;
         }
-        
-        @media all and (max-width: 1008px) {
-            
-            h4 {
-                margin: 30px 0 30px 15px;
-            }
-            
-            .png1 {
-                margin: 0;
-            }
-        }
-        
-        @media all and (max-width: 913px) {
-            
-            .h4Myself {
-                margin: 27px 0 30px -25px;
-                padding: 10px 0 0 0;
-            }
-            
-            .png1 {
-                float: left;
-                clear: both;
-                margin: 0 15px 0 80px;
-            }
-
-            .text1 {
-                float: right;
-                clear: both;
-                margin: 0 15px 0 10px;
-                line-height: 1.8;
-            }
-            
-            .buttonHeader{
-                height: 42px; 
-                padding: 30px 10px 15px 10px;
-            }
-
-            .buttonForm{
-                letter-spacing: 4px;
-                word-spacing: 4px;
-                font-size: 16px;
-            }
-
-            .skills {
-                position: absolute;
-                left: 20px;
-                margin: 0px 10px 0px 0px; 
-  
-            }
-            
-            .contact_2 {
-                position: absolute;
-                right: 350px;
-                margin: 85px 20px 0 0;
-            }
-            
-            .myself {
-                position: absolute;
-                right: 0px;
-                margin: 135px 10px 0 300px;
-
-            }
-            
-            .petProject {
-                float: bottom;
-                clear: both;
-                margin: 420px 0 30px 125px;
-
-            }
-
-            .edu {
-               margin: 20px 0 0 125px;
-            }
-        }
-        
-        @media all and (max-width: 882px) {     
-            
-            .textMyself {
-                width: auto;
-                height: auto;
-                margin: 0 80px 0 0;
-            }
-            
-            .h4Myself {
-                margin: 0 0 30px -15px;
-            }
-            
-            .png1 {
-                float: left;
-                clear: both;
-                margin: 0 15px 0 80px;
-            }
-
-            .text1 {
-                float: right;
-                clear: both;
-                margin: 0 15px 0 10px;
-                line-height: 1.8;
-            }
-            
-            .buttonHeader{
-                height: 42px; 
-                padding: 30px 10px 15px 10px;
-            }
-
-            .buttonForm{
-                letter-spacing: 4px;
-                word-spacing: 4px;
-                font-size: 16px;
-            }
-
-            .skills {
-                position: absolute;
-                left: 90px;
-                margin: 0 10px 0 0; 
-            }
-            
-            .contact_2 {
-                position: absolute;
-                right: 100px;
-                margin: 86px 20px 0 0;
-            }
-            
-            .myself {
-                position: relative;
-                top: 300px;
-                margin: 90px 0 0 110px;
-            }
-            
-            .myself {
-                br {
-                    display: none;
-                }
-            } 
-            
-            .petProject {
-                float: bottom;
-                clear: both;
-                margin: 350px 0 30px 100px;
-            }
-            
-            .edu {
-               margin: 20px 0 -10px 100px;
-            }
-        }
-        
-        @media all and (max-width: 856px) {  
-            
-            .skills {
-                position: absolute;
-                left: 70px; 
-            }
-            
-            .contact_2 {
-                position: absolute;
-                right: 90px;
-                margin: 86px 10px 0 0;
-            }
-            
-            .myself {
-                margin: 90px 0 0 90px;
-            }
-            
-            .textMyself {
-                width: auto;
-                height: auto;
-                margin: 0 50px 0 0px;
-            }
-            .petProject {
-                margin: 350px 0 30px 70px;
-            }
-            
-            .edu {
-                margin: 20px 0 -10px 70px;
-            }
-        
-        }
-        
-        @media all and (max-width: 762px) { 
-            
-            .buttonHeader{
-                height: 42px; 
-                padding: 30px 0 15px 0;
-            }
-
-            .buttonForm{
-                letter-spacing: 3px;
-                word-spacing: 3px;
-                font-size: 14px;
-            }
-            
-            .skills {
-                position: absolute;
-                left: 70px; 
-            }
-            
-            .contact_2 {
-                position: absolute;
-                right: 60px;
-            }
-            
-            .textMyself {
-                margin: 0 30px 0 10px;
-            }
-
-            .myself {
-                margin: 90px 0 0 50px;
-            }
-            
-            .petProject {
-                margin: 350px 0 30px 40px;
-            }
-            
-            .edu {
-                margin: 20px 0 -10px 40px;
-            }
-        
-        }
-        
-        @media all and (max-width: 720px) { 
-            
-            .buttonHeader{
-                height: 30px; 
-                padding: 10px 0px 15px 0px;
-                margin: 20px 10px;
-            }
-
-            .buttonForm{
-                padding: 0px 0px 0px 0px;
-                letter-spacing: 1px;
-                word-spacing: 2px;
-                font-size: 12px;
-            }
-            
-            .skills {
-                position: absolute;
-                left: 70px; 
-            }
-            
-            .contact_2 {
-                position: absolute;
-                right: 65px;
-            }
-            
-            .textMyself {
-                margin: 0 20px 0 5px;
-            }
-
-            .myself {
-                margin: 90px 0 0 40px;
-            }
-            
-            .petProject {
-                margin: 350px 0 30px 20px;
-            }
-            
-            .edu {
-                margin: 20px 0 -10px 20px;
-            }
-        }
-        
-        @media all and (max-width: 700px) { 
-            
-            .buttonHeader{
-                height: 30px; 
-                padding: 10px 0px 15px 0px;
-                margin: 20px 10px 0 0px;
-            }
-
-            .buttonForm{
-                padding: 0px 0px 0px 0px;
-                letter-spacing: 1px;
-                word-spacing: 1px;
-            }
-            
-            .skills {
-                position: absolute;
-                left: 70px; 
-            }
-            
-            .contact_2 {
-                position: absolute;
-                right: 65px;
-            }
-            
-            .textMyself {
-                margin: 0 20px 0 5px;
-            }
-
-            .myself {
-                margin: 90px 0 0 40px;
-            }
-            
-            .petProject {
-                margin: 350px 0 30px 10px;
-            }
-            
-            .edu {
-                margin: 20px 0 -10px 10px;
-            }
-        }
-        
-        @media all and (max-width: 692px) { 
-        
-        }
+    }
+    
