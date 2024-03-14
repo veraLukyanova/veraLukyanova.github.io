@@ -394,7 +394,7 @@
         }
     }
     
-    @media all and (max-width: 913px) {
+    @media all and (max-width: 924px) {
         
         .h4Myself {
             margin: 27px 0 30px -25px;
@@ -703,7 +703,6 @@
     
     @media all and (max-width: 608px) {
         
-        
         .skills {
             position: absolute;
             left: 20px;
@@ -737,7 +736,7 @@
         }
     }
     
-    @media all and (max-width: 530px) {
+    @media all and (max-width: 574px) {
          
         .img1 {
             display: none;
@@ -754,7 +753,63 @@
         }
         
         .contact {
-            margin: auto;
+            margin: 10px 0px 0px 0px;
+        }
+        
+        .contact_2 {
+            margin: 10px -10px 0 0px;
+            position: absolute;
+            right: 10px;
+        }
+        
+        .petProject {
+            margin: 350px 10px 30px 10px;
+        }
+        
+        .edu {
+            margin: 20px 10px -10px 10px;
+        }
+        
+        .eduh5 {
+            text-align: left;
+            margin: 0 10px 0 0;
+        }
+        
+        .edu2015 {
+            text-align: left;
+            margin-left: 15px;
         }
     }
     
+    @media all and (max-width: 450px) {
+        
+        .eduh5 {
+            text-align: left;
+            margin: 0 10px 0 0;
+        }
+        
+        .edu2015 {
+            text-align: left;
+            margin-left: 15px;
+        }
+        
+        .skills {
+            position: absolute;
+            left: 10px;
+        }
+        
+        .contact_2 {
+            margin: 10px 15px 0 0;
+            position: absolute;
+            right: 10px;
+        }
+        
+        .petProject {
+            margin: 350px 10px 30px 10px;
+        }
+        
+        .myself {
+            margin: -80px 0 0 10px;
+            padding: 0;
+        }
+     }
