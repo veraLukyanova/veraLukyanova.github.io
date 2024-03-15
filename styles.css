@@ -698,118 +698,148 @@
             height: auto;
             padding: 0 0 0 5px;
         }
-    
     }
     
-    @media all and (max-width: 608px) {
-        
-        .skills {
-            position: absolute;
-            left: 20px;
-        } 
-        
-        h4 {
-            margin: 10px 0 20px 5px;
-        }
-        
-        .h4Myself {
-            margin: 10px 0 20px 5px;
-        } 
-        
-        .eduh4{
-            font-size: 14px;
-            margin: 10px 0 20px 5px;
-        }
-        
-        .buttonHeader{
-            height: 40px; 
-            padding: 30px 10px 15px 10px;
-        }
-    
-        .png1 {
-            margin: 0 10px 0 5px;
-        }
+        @media all and (max-width: 608px) {
+            
+            .buttonHeader {
+                height: 30px; 
+                padding: 10px 0 10px 0;
+            }
 
-        .myself {
-            margin: 30px 0 0 10px;
-            padding: 0;
-        }
-    }
-    
-    @media all and (max-width: 574px) {
-         
-        .img1 {
-            display: none;
-        }
+            .buttonForm {
+                padding: 0 20px 0 20px;
+                letter-spacing: 4px;
+                word-spacing: 3px;
+                font-size: 16px;
+            }
+            
+            .skills {
+                position: absolute;
+                left: 20px;
+            } 
+            
+            h4 {
+                margin: 10px 0 20px 5px;
+            }
+            
+            .h4Myself {
+                margin: 10px 0 20px 5px;
+            } 
+            
+            .eduh4 {
+                font-size: 14px;
+                margin: 10px 0 20px 5px;
+            }
         
-        h6 {
-            br {
-                display: none;    
+            .png1 {
+                margin: 0 10px 0 5px;
+            }
+
+            .myself {
+                margin: 30px 0 0 10px;
+                padding: 0;
             }
         }
         
-        body {
-            font-size: 12px; 
+        @media all and (max-width: 574px) {
+           
+            .img1 {
+                display: none;
+            }
+            
+            h6 {
+                br {
+                    display: none;    
+                }
+            }
+            
+            body {
+                font-size: 12px; 
+            }
+            
+            .contact {
+                margin: 10px 0 0 0;
+            }
+            
+            .contact_2 {
+                margin: 10px 0 0 0;
+                position: absolute;
+                right: 0px;
+            }
+            
+            .edu {
+                margin: 20px 10px -10px 10px;
+            }
+            
+            .eduh5 {
+                text-align: left;
+                margin: 0 10px 0 0;
+            }
+            
+            .edu2015 {
+                text-align: left;
+                margin-left: 15px;
+            }
+            
+            .b {
+                padding: 20px 0 15px 0;
+            }
         }
         
-        .contact {
-            margin: 10px 0px 0px 0px;
+            @media all and (max-width: 450px) {
+            
+            .buttonHeader {
+                height: 30px; 
+                padding: 10px 10px 10px 10px;
+            }
+
+            .buttonForm {
+                padding: 0 20px 0 20px;
+                letter-spacing: 4px;
+                word-spacing: 3px;
+                font-size: 16px;
+            }
+
+            .contact {
+                margin: 10px 0 0 0;
+                padding: 0;
+            }
+            
+            .eduh5 {
+                text-align: left;
+                margin: 0 10px 0 0;
+            }
+            
+            .edu2015 {
+                text-align: left;
+                margin-left: 15px;
+            }
+            
+            .skills {
+                position: absolute;
+                left: 10px;
+            }
+            
+            .contact_2 {
+                margin: 10px 0 0 0;
+                position: absolute;
+                right: 0px;
+            }
+            
+            .petProject {
+                margin: 350px 10px 30px 10px;
+            }
+            
+            .h4Myself {
+                    margin: 0px 0px 20px 10px;
+            }
+            
+            .myself {
+                margin: 0 0 0 35px;
+                padding: 0;
+                br {
+                    display: initial;
+                }
+            }
         }
-        
-        .contact_2 {
-            margin: 10px -10px 0 0px;
-            position: absolute;
-            right: 10px;
-        }
-        
-        .petProject {
-            margin: 350px 10px 30px 10px;
-        }
-        
-        .edu {
-            margin: 20px 10px -10px 10px;
-        }
-        
-        .eduh5 {
-            text-align: left;
-            margin: 0 10px 0 0;
-        }
-        
-        .edu2015 {
-            text-align: left;
-            margin-left: 15px;
-        }
-    }
-    
-    @media all and (max-width: 450px) {
-        
-        .eduh5 {
-            text-align: left;
-            margin: 0 10px 0 0;
-        }
-        
-        .edu2015 {
-            text-align: left;
-            margin-left: 15px;
-        }
-        
-        .skills {
-            position: absolute;
-            left: 10px;
-        }
-        
-        .contact_2 {
-            margin: 10px 15px 0 0;
-            position: absolute;
-            right: 10px;
-        }
-        
-        .petProject {
-            margin: 350px 10px 30px 10px;
-        }
-        
-        .myself {
-            margin: -60px 0 0 10px;
-            padding: 0;
-        }
-     }
