@@ -787,7 +787,7 @@
             }
         }
         
-            @media all and (max-width: 450px) {
+       @media all and (max-width: 450px) {
             
             .buttonHeader {
                 height: 30px; 
@@ -840,15 +840,7 @@
                clear: both;
             }
             
-            .petProject {
-                
-            }
-            
-            .h4Myself {
-                margin: 10px 0px 20px 10px;
-            }
-            
             .myself {
-                
+                margin: 20px 0px 20px 10px;
             }
         }
