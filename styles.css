@@ -828,8 +828,8 @@
             .contact_2 {
                 margin: 100px 0 0 10px;
                 position: absolute;
-                top: 100px;
-               left: 2px;
+                top: 200px;
+                left: 2px;
             }
             
             .petProject {
@@ -837,10 +837,12 @@
             }
             
             .h4Myself {
-                    margin: 0px 0px 20px 10px;
+                margin: 0px 0px 20px 10px;
             }
             
             .myself {
+                position: absolute;
+                top: 100px;
                 margin: 0 0 0 35px;
                 padding: 0;
                 br {
