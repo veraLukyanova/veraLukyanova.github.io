@@ -821,13 +821,12 @@
             }
             
             .skills {
-                
+                position: none;
             }
             
             .contact_2 {
                 margin: 10px 0 0 10px;
-                position: relative;
-                bottom: 100px;
+                position: none;
             }
             
             .petProject {
