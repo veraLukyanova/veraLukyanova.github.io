@@ -825,11 +825,9 @@
             }
          
             .contact_2 {
+                float: bottom;
                 clear: both;
-                margin: 100px 0 0 10px;
-                position: absolute;
-                top: 200px;
-                left: 2px;
+                margin: 350px 10px 30px 10px
             }
             
             .petProject {
