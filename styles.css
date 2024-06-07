@@ -825,9 +825,9 @@
             }
          
             .contact_2 {
-                float: bottom;
+                float: right;
                 clear: both;
-                margin: 350px 10px 30px 10px
+                margin: 350px 0px 30px 10px
             }
             
             .petProject {
@@ -839,7 +839,7 @@
             }
             
             .myself {
-                margin: 0 0 0 35px;
+                margin: 10px 0 0 35px;
                 padding: 0;
                 br {
                     display: initial;
