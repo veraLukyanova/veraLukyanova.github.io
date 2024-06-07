@@ -800,8 +800,7 @@
                 word-spacing: 3px;
                 font-size: 16px;
             }
-            
-            
+               
             .b {
                 padding: 20px 0 15px 0;
             }
@@ -828,7 +827,7 @@
             .contact_2 {
                 margin: 10px 0 0 10px;
                 position: relative;
-                top: 100px;
+                bottom: 50px;
             }
             
             .petProject {
