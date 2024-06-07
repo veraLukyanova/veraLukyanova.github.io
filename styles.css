@@ -822,8 +822,9 @@
             }
             
             .skills {
+                float: top;
                 clear: both;
-                position: none;
+                position: relative;
                 left: 10px;
             }
             
@@ -831,7 +832,7 @@
                 margin: 10px 0 0 10px;
                 float: bottom;
                 clear: both;
-                r!ight: 0px;
+                right: 0px;
             }
             
             .petProject {
