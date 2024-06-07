@@ -822,17 +822,13 @@
             }
             
             .skills {
-                float: top;
-                clear: both;
-                position: relative;
-                left: 10px;
+                
             }
             
             .contact_2 {
                 margin: 10px 0 0 10px;
-                float: bottom;
-                clear: both;
-                right: 0px;
+                position: relative;
+                top: 100px;
             }
             
             .petProject {
