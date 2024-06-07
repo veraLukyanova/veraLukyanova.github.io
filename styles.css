@@ -829,7 +829,7 @@
             }
             
             .petProject {
-                margin: 350px 10px 30px 10px;
+                
             }
             
             .h4Myself {
@@ -837,10 +837,6 @@
             }
             
             .myself {
-                margin: 10px 0 0 35px;
-                padding: 0;
-                br {
-                    display: initial;
-                }
+                
             }
         }
