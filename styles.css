@@ -823,15 +823,15 @@
             
             .skills {
                 clear: both;
-                position: absolute;
+                position: none;
                 left: 10px;
             }
             
             .contact_2 {
                 margin: 10px 0 0 10px;
-                float: left;
+                float: bottom;
                 clear: both;
-                right: 0px;
+                r!ight: 0px;
             }
             
             .petProject {
