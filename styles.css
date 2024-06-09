@@ -812,7 +812,7 @@
             }
 
              .eduh4 {
-                margin: 10px 0 10px 5px;
+                margin: 5px 0 5px 5px;
              }
           
              .eduh5 {
@@ -824,7 +824,7 @@
             .edu2015 {
                 text-align: left;
                 margin: 0px;
-                paddin: 0px 0 0 5px;
+                paddin: 0px 0 0 3px;
             }
             .png {
                 margin: 0 5px 0 0;
@@ -839,10 +839,6 @@
                letter-spacing: 3px;
                word-spacing: 2px;
             }
-          
-            h5 {
-               
-           }
           
             .skills {
                 clear: both;
