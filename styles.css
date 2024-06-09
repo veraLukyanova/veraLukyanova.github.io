@@ -828,11 +828,15 @@
             }
                
             h4 {
-             margin: 10px 0 10px 10px;
-             letter-spacing: 3px;
-             word-spacing: 2px;
-         
+               margin: 10px 0 10px 10px;
+               letter-spacing: 3px;
+               word-spacing: 2px;
             }
+          
+            h5 {
+               
+           }
+          
             .skills {
                 clear: both;
             }
@@ -841,13 +845,16 @@
                clear: both;
                morgin: 10px 0 0 0;
             }
+            .myself {
+               margin: 5px 0 5px 0;
+            }
           
             .h4Myself {
-               margin: 20px 0 20px 0px;
+               margin: 10px 0 10px 10px;
             }
           
            .petProject {
-               padding: 0;
+               padding: 10px;
                margin: 340px 10px 30px 10px;
            } 
        }
