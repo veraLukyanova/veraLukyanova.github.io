@@ -812,15 +812,19 @@
              .edu {
                 margin: 10px 0px 0px 10px;
             }
+
+             .eduh4 {
+                margin: 10px 0 10px 5px;
+             }
           
-            .eduh5 {
+             .eduh5 {
                 text-align: left;
-                margin: 10px 0 5px 0;
+                margin: 10px 0px 0px 0px;
             }
             
             .edu2015 {
                 text-align: left;
-                margin: 5px 0 5px 2px;
+                margin: 5px 0 5px 0px;
             }
             .png {
                 margin: 0 5px 0 0;
