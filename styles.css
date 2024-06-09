@@ -824,7 +824,7 @@
             .edu2015 {
                 text-align: left;
                 margin: 0px;
-                padding: 0px;
+                padding: 0px 0px 0px 0px;
             }
             .png {
                 margin: 0 5px 0 0;
@@ -835,7 +835,7 @@
             }
                
             h4 {
-               margin: 10px 0 10px 0px;
+               margin: 10px 0 15px 0px;
                letter-spacing: 3px;
                word-spacing: 2px;
             }
