@@ -828,9 +828,10 @@
             }
                
             h4 {
-               margin: 10px 0 10px 10px;
+               margin: 10px 0 10px 0px;
                letter-spacing: 3px;
                word-spacing: 2px;
+               pading: 0 0 5px 0;
             }
           
             h5 {
