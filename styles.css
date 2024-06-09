@@ -800,24 +800,24 @@
             }
                
             .b {
-                padding: 20px 0 15px 0;
+                padding: 20px 0px 15px 0px;
             }
             
             .contact {
-                margin: 10px 0 0 0;
-                padding: 0;
+                margin: 10px 0px 0px 0px;
+                padding: 0px;
             }
              .edu {
                 margin: 10px 10px 0px 10px;
             }
 
              .eduh4 {
-                margin: 10px 0 15px 5px;
+                margin: 10px 0px 15px 5px;
              }
           
              .eduh5 {
                 text-align: left;
-                padding: 0 0 0 0px;
+                padding: 0px 0px 0px 0px;
                 margin: 5px 0px 1px 0px;
             }
             
@@ -827,15 +827,15 @@
                 padding: 0px 0px 0px 0px;
             }
             .png {
-                margin: 0 5px 0 0;
+                margin: 0px 5px 0px 0px;
             }
 
             .text {
-                margin: 0;
+                margin: 0px;
             }
                
             h4 {
-               margin: 10px 0 15px 0px;
+               margin: 10px 0px 15px 0px;
                letter-spacing: 3px;
                word-spacing: 2px;
             }
@@ -846,14 +846,14 @@
          
             .contact_2 {
                clear: both;
-               morgin: 10px 0 0 0;
+               morgin: 10px 0px 0px 0px;
             }
             .myself {
-               margin: 5px 0 5px 0;
+               margin: 5px 0px 5px 0px;
             }
           
             .h4Myself {
-               margin: 10px 0 10px 10px;
+               margin: 10px 0px 10px 10px;
             }
           
            .petProject {
