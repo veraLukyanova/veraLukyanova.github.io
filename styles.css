@@ -809,15 +809,18 @@
                 margin: 10px 0 0 0;
                 padding: 0;
             }
-            
+            .edu {
+               padding: 0 0 5px 0;
+            }
+          
             .eduh5 {
                 text-align: left;
-                margin: -15px;
+                margin: 10px 0 5px 0;
             }
             
             .edu2015 {
                 text-align: left;
-                margin: -20px;
+                margin: 5px 0 5px 2px;
             }
             .png {
                 margin: 0 5px 0 0;
