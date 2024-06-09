@@ -812,12 +812,12 @@
             
             .eduh5 {
                 text-align: left;
-                margin: -10px;
+                margin: -15px;
             }
             
             .edu2015 {
                 text-align: left;
-                margin: -10px;
+                margin: -20px;
             }
             .png {
                 margin: 0 5px 0 0;
@@ -847,7 +847,7 @@
             }
           
            .petProject {
-              padding: 0;
+               padding: 0;
                margin: 340px 10px 30px 10px;
            } 
        }
