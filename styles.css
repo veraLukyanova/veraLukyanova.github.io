@@ -811,12 +811,13 @@
             }
             
             .eduh5 {
-                text-align: none;
-                margin: 0px;
+                text-align: left;
+                margin: -10px;
             }
             
             .edu2015 {
-                margin: 0px;
+                text-align: left;
+                margin: -10px;
             }
             .png {
                 margin: 0 5px 0 0;
@@ -838,6 +839,7 @@
          
             .contact_2 {
                clear: both;
+               morgin: 10px 0 0 0;
             }
           
             .h4Myself {
